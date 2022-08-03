@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/30329bcc97.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="overlay">
+        <div class="container">
+          <div class="hero">
+            <div class="navigation">
+              <div class="logo">Richard Mugabe</div>
+              <nav class="menu">
+                <input type="checkbox" id="menuToggle" />
+                <label for="menuToggle" class="menu-icon"
+                  ><span class="fa fa-bars"></span
+                ></label>
+                <ul class="nav-ul">
+                  <li><a href="index.html" id="active">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#footer">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="hero-text">
+              <h1>Welcome!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <article>
+          <div class="about-content">
+            <div class="about-content__text">
+              <h1 class="title"></h1>
+              <p>
+                I am a software programmer who is currently studying in the Adventist University
+                of Central Africa. I have passion for coding and would like to up my skills while
+                helping people achieve their goals and eveloping professional relationships.
+          
+              </p>
+            </div>
+            <img src="./images/Richard.jpeg" alt="" />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h1 class="title">Skills & Hobbies</h1>
+        <div class="skills">
+          <article>
+            <span class="fa fa-code"></span>
+            <h1>Coding</h1>
+            <p>
+              I have skills in different programming languages such as HTML,
+              CSS, JAVA, PYTHON and C++.
+            </p>
+          </article>
+          <article>
+            <span class="fa-solid fa-laptop-code"></span>
+            <h1>Web Design</h1>
+            <p>
+              With my coding skills, I'm able to design different websites for
+              people where I have also interned with different companies in this
+              field.
+            </p>
+          </article>
+          <article>
+            <span class="fa-solid fa-book-open"></span>
+            <h1>Reading</h1>
+            <p>
+              The real reason why I love reading is because with it I can escape
+              reality, it gives me the ability to shape what I read into
+              whatever that my mind desires. It helps me create imaginary
+              characters that doesn't really fit in our ordinary world, and it's
+              another way of keeping my mind sharp.
+            </p>
+          </article>
+          <article>
+            <span class="fa-solid fa-car"></span>
+            <h1>Travelling</h1>
+            <p>
+              In my free time, I love travelling as it frees my mind and helps
+              me organise my thoughts.
+            </p>
+          </article>
+          <article>
+            <span class="fa-solid fa-person-swimming"></span>
+            <h1>Swimming</h1>
+            <p>
+              Swimming is my special way of exercising, I swim whenever I feel
+              like I need to strech my muscles. I like it because it helps me
+              exercise and in a way that's not tiresome.
+            </p>
+          </article>
+          <article>
+            <span class="fa-solid fa-person-hiking"></span>
+            <h1>Hiking</h1>
+            <p>
+              I like hiking because just being in nature just calms my anxiety,
+              reduces my stress and makes me feel relaxed. It's also something
+              that helps me workout while enjoying the nature.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h1 class="title">Projects & Experiences</h1>
+
+        <div class="projects-content">
+          <div class="projects">
+            <article>
+              <h3>Year</h3>
+              <h3>Description</h3>
+            </article>
+            <hr />
+          </div>
+          <div class="experience">
+            <h4>2021-Present</h4>
+            <p>Self-employed at KSTOREZ</p>
+          </div>
+          <div class="experience">
+            <h4>2021-Present</h4>
+            <p>Software Engineer</p>
+          </div>
+          <div class="experience">
+            <h4>2020-2021</h4>
+            <p>Web Developer</p>
+          </div>
+          <div class="experience">
+            <h4>2020-2021</h4>
+            <p>Robotics Trainer at Tsquared Robotics LLC</p>
+          </div>
+          <div class="experience">
+            <h4>2018-2021</h4>
+            <p>Worked as an Online Marketer at Africa My Tours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h1 class="title">Education</h1>
+        <table>
+          <div class="table">
+            <div class="row header">
+              <div class="cell">Institution</div>
+              <div class="cell">Start Date</div>
+              <div class="cell">End Date</div>
+            </div>
+
+            <div class="row">
+              <div class="cell" data-title="Institution">
+                Adventist University of Central Africa
+              </div>
+
+              <div class="cell" data-title="Start Date">2018</div>
+              <div class="cell" data-title="Start End">2022</div>
+            </div>
+          </div>
+        </table>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer">
+          <div class="footer-text">
+            <h1 class="title">Contact</h1>
+            <p>
+              If you'd like to work together, You can email me directly at
+              <a href="mailto: richard.mugabe@amalitech.org"
+                >richard.mugabe@amalitech.org</a
+              >
+            </p>
+          </div>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/mugabe-richard/" target="_blank"
+              ><span class="fa fa-linkedin"></span
+            ></a>
+            <!-- <a
+              href="https://www.facebook.com/people/Nelsa-Ishimwe/100005695039491/"
+              target="_blank"
+              ><span class="fa fa-facebook"></span
+            ></a>
+            <a href="https://twitter.com/Nelsa_Ish?s=08" target="_blank"
+              ><span class="fa fa-twitter"></span
+            ></a>
+            <a href="https://www.instagram.com/_nel_sa_/" target="_blank"
+              ><span class="fa fa-instagram"></span
+            ></a> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
